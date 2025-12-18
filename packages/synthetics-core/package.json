@@ -1,0 +1,32 @@
+{
+  "name": "@aws/synthetics-core",
+  "version": "4.0.0",
+  "description": "AWS CloudWatch Synthetics Type Support for syn-nodejs-* runtime",
+  "main": "lib/index.d.ts",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/*",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "prepare": "npm run compile",
+    "compile": "tsc && npm run test-d",
+    "test-d": "tsd",
+    "clean": "rm -rf dist && rm -rf node_modules"
+  },
+  "engines": {
+    "node": ">= 18.x"
+  },
+  "repository": "https://github.com/aws/aws-cloudwatch-synthetics-sdk-nodejs",
+  "keywords": [
+    "amazon",
+    "aws",
+    "cloudwatch",
+    "synthetics",
+    "runtime",
+    "core"
+  ],
+  "author": "Amazon Web Services",
+  "license": "Apache-2.0"
+}
