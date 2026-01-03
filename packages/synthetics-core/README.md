@@ -1,6 +1,6 @@
-# AWS CloudWatch Synthetics Type Support for Node.js Runtime
+# Type Support for Amazon CloudWatch Synthetics Node.js Runtime 
 
-TypeScript type definitions for the AWS CloudWatch Synthetics Node.js runtime library.
+TypeScript type definitions for the Amazon CloudWatch Synthetics Node.js runtime library.
 
 ## Installation
 
@@ -27,7 +27,7 @@ await synthetics.executeStep('checkHomepage', async () => {
 
 ## TypeScript Support
 
-This package provides complete TypeScript type definitions for the AWS CloudWatch Synthetics Node.js runtime, enabling full IntelliSense support and type checking in your canary scripts.
+This package provides complete TypeScript type definitions for the Amazon CloudWatch Synthetics Node.js runtime, enabling full IntelliSense support and type checking in your canary scripts.
 
 ## Security
 
