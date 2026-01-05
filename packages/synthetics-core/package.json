@@ -1,7 +1,7 @@
 {
   "name": "@aws/synthetics-core",
-  "version": "4.0.0",
-  "description": "AWS CloudWatch Synthetics Type Support for syn-nodejs-* runtime",
+  "version": "3.1.0",
+  "description": "Amazon CloudWatch Synthetics Type Support for syn-nodejs-* runtime",
   "main": "lib/index.d.ts",
   "types": "lib/index.d.ts",
   "files": [
@@ -18,7 +18,7 @@
   "engines": {
     "node": ">= 18.x"
   },
-  "repository": "https://github.com/aws/aws-cloudwatch-synthetics-sdk-nodejs",
+  "repository": "https://github.com/aws/cloudwatch-synthetics-sdk-nodejs",
   "keywords": [
     "amazon",
     "aws",
