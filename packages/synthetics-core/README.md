@@ -4,6 +4,8 @@ TypeScript type definitions for the Amazon CloudWatch Synthetics Node.js runtime
 
 ## Installation
 
+Please ensure the type definition package version matches your canary's runtime version.
+
 ```bash
 npm install @aws/synthetics-core
 ```
